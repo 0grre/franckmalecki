@@ -10,7 +10,15 @@
   </section>
 </template>
 <script>
+
+import NavBar from "../components/NavBar";
+import About from "../components/About";
+import Project from "../components/Project";
+import Signup from "../components/Signup";
+import Contact from "../components/Contact";
+
 export default {
+  components: {Contact, Signup, Project, About, NavBar},
   async asyncData({ $strapi }) {
 
     return {

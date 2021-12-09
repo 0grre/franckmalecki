@@ -23,3 +23,16 @@
     </div>
   </nav>
 </template>
+<script>
+export default {
+  mounted(){
+    const nav = document.getElementById('mainNav');
+    if (nav.offset().top > 100){
+      nav.addClass("navbar-shrink");
+    } else {
+      nav.removeClass("navbar-shrink");
+    }
+  }
+}
+</script>
+

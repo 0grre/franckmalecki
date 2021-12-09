@@ -1,4 +1,4 @@
-const strapiBaseUri = process.env.API_URL || "http://localhost:1337";
+const strapiBaseUri = process.env.API_URL || "https://api.franckmalecki.com";
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
@@ -46,10 +46,10 @@ export default {
         src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js',
         type: "text/javascript"
       },
-      {
+/*      {
         src: '@/assets/js/scripts.js',
         type: "text/javascript"
-      }
+      }*/
     ]
   },
 
