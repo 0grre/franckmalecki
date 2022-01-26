@@ -1,7 +1,7 @@
 # Franck Malecki
 
 ---
-Je vous présente la nouvelle version du site de Franck accessibble [ici](www.franckmalecki.com)
+Deuxième version du site [ici](www.franckmalecki.com)
 
 ## À propos
 
