@@ -94,7 +94,10 @@ export default {
   },
 
   // Modules: https://go.nuxtjs.dev/config-modules
-  modules: ['@nuxtjs/strapi'],
+  modules: [
+    '@nuxtjs/strapi',
+  ],
+
   strapi: {
     url: strapiBaseUri,
     entities: [

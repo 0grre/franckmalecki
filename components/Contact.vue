@@ -3,7 +3,7 @@
     <div class="container">
       <!-- btn home-->
       <div class="bottom">
-        <div class="d-flex justify-content-center"><a class="nav-link js-scroll-trigger btn btn-primary"
+        <div class="d-flex justify-content-center"><a class="nav-link js-scroll-trigger"
                                                       href="#home"><fa :icon='["fas" , "arrow-up"]' /></a>
         </div>
         <!-- links-->

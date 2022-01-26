@@ -1,35 +1,30 @@
 <template>
-  <section class="signup-section" id="signup">
+  <section class="signup-section" id="signup" :style="{'background-image': media_url}">
     <div class="container">
       <div class="row">
         <div class="col-md-10 col-lg-8 mx-auto text-center">
           <i class="far fa-paper-plane fa-2x mb-2 text-white"></i>
-          <h2 class="text-white mb-5">Tu veux plus d'info ?</h2>
-          <div class="alert alert-danger">
-          </div>
-          <div class="alert alert-success">
-            "Votre email a bien été envoyé."
-          </div>
-          <form class="form-group d-flex flex-column"  method="post">
-            <div class="d-flex flex-rown">
-              <input class="form-control flex-fill mr-2 mb-3" name="contact_email" type="email"
-                     placeholder="Email ..."
-                     value=""/>
-              <select class="form-control flex-fill ml-2 mb-3 text-primary" name="contact_goal">
-                <option class="text-primary">Objectif ...</option>
-                <option class="text-primary">Perte de poids</option>
-                <option class="text-primary">Prise de masse musculaire</option>
-                <option class="text-primary">Regain d'énergie</option>
-                <option class="text-primary">Amélioration des performances sportives</option>
-                <option class="text-primary">Bien être</option>
-              </select>
-            </div>
-            <textarea class="form-control flex-fill mr-0 mr-sm-2 mb-3" name="contact_message" type="text"
-                      placeholder="Message ..."></textarea>
-            <button class="btn btn-primary mx-auto mt-2" name="envoye" type="submit">Envoyer</button>
-          </form>
+          <h2 class="text-white mb-5" v-html="$md.render(questionnaire.Texte)"></h2>
+            <a href="https://docs.google.com/forms/d/e/1FAIpQLSfK-dVwtQeCHo4d_C6ONRyJ2oRq7UKAAyTNR0-PaEaq1cJCTQ/viewform">
+            <button class="btn btn-primary mx-auto mt-2">{{ questionnaire.Bouton }}</button>
+            </a>
         </div>
       </div>
     </div>
   </section>
 </template>
+<script>
+export default {
+  props: {
+    questionnaire: {
+      type: Object,
+      default: () => ({}),
+    },
+    url: { type: String }
+  },
+  data(props){
+    return {
+      media_url: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url('+props.url + props.questionnaire.Fond.url+')',
+    }},
+}
+</script>

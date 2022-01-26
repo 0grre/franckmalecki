@@ -1,5 +1,5 @@
 <template>
-<header class="masthead" id="home">
+<header class="masthead" id="home" :style="{'background-image': media_url}">
 <div class="container d-flex h-100 align-items-center">
   <div class="mx-auto text-center">
     <h1 class="mx-auto my-0 text-uppercase">{{ about.Titre}}</h1>
@@ -16,7 +16,12 @@ export default {
       type: Object,
       default: () => ({}),
     },
+    url: { type: String }
   },
+  data(props){
+    return {
+      media_url: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0.7) 75%, #000000 100%), url('+props.url + props.about.Media.url+')',
+    }},
 };
 </script>
 

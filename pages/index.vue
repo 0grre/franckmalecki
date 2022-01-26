@@ -1,10 +1,10 @@
 <template>
   <section>
     <NavBar/>
-    <Header :about="about"/>
+    <Header :about="about" :url="url"/>
     <About :about="about"/>
     <Project :opportunity="opportunity" :opportunities="opportunities" :url="url"/>
-    <Signup/>
+    <Signup :questionnaire="questionnaire" :url="url"/>
     <Contact/>
     <Footer/>
   </section>
@@ -24,6 +24,7 @@ export default {
     return {
       about: await $strapi.find("about"),
       opportunity: await $strapi.find("opportunity"),
+      questionnaire: await $strapi.find("questionnaire"),
       opportunities: await $strapi.find("pages"),
       url: process.env.strapiBaseUri,
     };
