@@ -12,7 +12,7 @@ export default {
 
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: process.env.TITLE,
+    title: process.env.TITLE || "Franck Malecki - Ambassadeur d'un mode de vie sain et actif",
     htmlAttrs: {
       lang: 'fr'
     },
