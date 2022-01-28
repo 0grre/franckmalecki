@@ -1,4 +1,4 @@
-const strapiBaseUri = process.env.API_URL || "https://api.franckmalecki.com";
+const strapiBaseUri = process.env.API_URL || "https://franckmalecki.jbloup-server.fr";
 
 export default {
   // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
