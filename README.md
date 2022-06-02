@@ -1,8 +1,6 @@
 # Franck Malecki
-
-## Site Vitrine présentation Herbalife opportunité
-
 ---
+
 Site disponible [ici](https://www.franckmalecki.com)
 
 ## À propos
