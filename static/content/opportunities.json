@@ -1,0 +1,146 @@
+[
+  {
+    "id": 1,
+    "Titre": "Challenger",
+    "Texte": "* Focus sur ton objectif\n* Évalution bien-être\n* Suivi nutritionnel & sportif\n* Groupe de motivation\n* Résultat avant/après ",
+    "published_at": "2021-12-06T13:45:19.055Z",
+    "created_at": "2021-12-06T13:45:12.564Z",
+    "updated_at": "2021-12-09T10:58:49.958Z",
+    "Image": {
+      "id": 2,
+      "name": "demo-image-01.JPG",
+      "alternativeText": "",
+      "caption": "",
+      "width": 1221,
+      "height": 1221,
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_demo-image-01.JPG",
+          "hash": "thumbnail_demo_image_01_9a3d8355ef",
+          "ext": ".JPG",
+          "mime": "image/jpeg",
+          "width": 156,
+          "height": 156,
+          "size": 6.93,
+          "path": null,
+          "url": "/uploads/thumbnail_demo_image_01_9a3d8355ef.JPG"
+        },
+        "large": {
+          "name": "large_demo-image-01.JPG",
+          "hash": "large_demo_image_01_9a3d8355ef",
+          "ext": ".JPG",
+          "mime": "image/jpeg",
+          "width": 1000,
+          "height": 1000,
+          "size": 126.43,
+          "path": null,
+          "url": "/uploads/large_demo_image_01_9a3d8355ef.JPG"
+        },
+        "medium": {
+          "name": "medium_demo-image-01.JPG",
+          "hash": "medium_demo_image_01_9a3d8355ef",
+          "ext": ".JPG",
+          "mime": "image/jpeg",
+          "width": 750,
+          "height": 750,
+          "size": 83.25,
+          "path": null,
+          "url": "/uploads/medium_demo_image_01_9a3d8355ef.JPG"
+        },
+        "small": {
+          "name": "small_demo-image-01.JPG",
+          "hash": "small_demo_image_01_9a3d8355ef",
+          "ext": ".JPG",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 500,
+          "size": 44.17,
+          "path": null,
+          "url": "/uploads/small_demo_image_01_9a3d8355ef.JPG"
+        }
+      },
+      "hash": "demo_image_01_9a3d8355ef",
+      "ext": ".JPG",
+      "mime": "image/jpeg",
+      "size": 168.21,
+      "url": "/img/demo-image-01.JPG",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2021-12-06T13:44:57.572Z",
+      "updated_at": "2021-12-06T13:44:57.609Z"
+    }
+  },
+  {
+    "id": 2,
+    "Titre": "Ambassadeur",
+    "Texte": "* Rejoins notre mission\n* Formation pour devenir indépendant dans l'activité\n* Compléments de revenus / reconversion pro\n* Forme à ton tour les membres de ton équipe\n* Deviens une meilleure version de toi toi même\n",
+    "published_at": "2021-12-06T13:47:26.268Z",
+    "created_at": "2021-12-06T13:47:24.192Z",
+    "updated_at": "2021-12-09T10:59:24.802Z",
+    "Image": {
+      "id": 3,
+      "name": "demo-image-02.JPG",
+      "alternativeText": "",
+      "caption": "",
+      "width": 1200,
+      "height": 1200,
+      "formats": {
+        "thumbnail": {
+          "name": "thumbnail_demo-image-02.JPG",
+          "hash": "thumbnail_demo_image_02_021b5d96d7",
+          "ext": ".JPG",
+          "mime": "image/jpeg",
+          "width": 156,
+          "height": 156,
+          "size": 10.79,
+          "path": null,
+          "url": "/uploads/thumbnail_demo_image_02_021b5d96d7.JPG"
+        },
+        "large": {
+          "name": "large_demo-image-02.JPG",
+          "hash": "large_demo_image_02_021b5d96d7",
+          "ext": ".JPG",
+          "mime": "image/jpeg",
+          "width": 1000,
+          "height": 1000,
+          "size": 317.31,
+          "path": null,
+          "url": "/uploads/large_demo_image_02_021b5d96d7.JPG"
+        },
+        "medium": {
+          "name": "medium_demo-image-02.JPG",
+          "hash": "medium_demo_image_02_021b5d96d7",
+          "ext": ".JPG",
+          "mime": "image/jpeg",
+          "width": 750,
+          "height": 750,
+          "size": 193.26,
+          "path": null,
+          "url": "/uploads/medium_demo_image_02_021b5d96d7.JPG"
+        },
+        "small": {
+          "name": "small_demo-image-02.JPG",
+          "hash": "small_demo_image_02_021b5d96d7",
+          "ext": ".JPG",
+          "mime": "image/jpeg",
+          "width": 500,
+          "height": 500,
+          "size": 90.43,
+          "path": null,
+          "url": "/uploads/small_demo_image_02_021b5d96d7.JPG"
+        }
+      },
+      "hash": "demo_image_02_021b5d96d7",
+      "ext": ".JPG",
+      "mime": "image/jpeg",
+      "size": 400.87,
+      "url": "/img/demo-image-02.JPG",
+      "previewUrl": null,
+      "provider": "local",
+      "provider_metadata": null,
+      "created_at": "2021-12-06T13:44:57.962Z",
+      "updated_at": "2021-12-06T13:44:58.016Z"
+    }
+  }
+]

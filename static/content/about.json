@@ -1,0 +1,77 @@
+{
+  "id": 1,
+  "Titre": "Ta seule limite",
+  "SousTitre": "c'est toi ",
+  "published_at": "2021-12-06T13:48:47.739Z",
+  "created_at": "2021-12-06T13:48:44.685Z",
+  "updated_at": "2022-01-25T14:48:44.766Z",
+  "Presentation": {
+    "id": 1,
+    "Titre": "Franck Malecki",
+    "Texte": "Le jour de mes 20 ans j'ai eu un déclic, j'ai observé mon corps dans un miroir et je me suis senti déçu.\n\nJe pesais 60kg pour 1m80, je manquais d'énergie et j'avais un mauvais cardio.\nC'est là que j'ai compris que j'avais un objectif à atteindre, que le corps dont je rêvais n'allait pas tomber du ciel et qu'il fallait que je me donne les moyens de l'obtenir.\nDepuis ce jour est né une détermination sans faille pour construire et façonner mon corps. Et je peux dire aujourd'hui que j'ai apprivoisé ce style de vie, car oui ... c'en est un !\n\nBref, mon résultat actuel ?\nJ'ai pris environ 15kg de muscles, j'ai gagné en énergie, en cardio et mon mental n'est clairement plus le même !"
+  },
+  "Media": {
+    "id": 4,
+    "name": "bg-masthead.jpg",
+    "alternativeText": "",
+    "caption": "",
+    "width": 2048,
+    "height": 1422,
+    "formats": {
+      "thumbnail": {
+        "name": "thumbnail_bg-masthead.jpg",
+        "hash": "thumbnail_bg_masthead_291ddf948d",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "width": 225,
+        "height": 156,
+        "size": 6.61,
+        "path": null,
+        "url": "/uploads/thumbnail_bg_masthead_291ddf948d.jpg"
+      },
+      "large": {
+        "name": "large_bg-masthead.jpg",
+        "hash": "large_bg_masthead_291ddf948d",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "width": 1000,
+        "height": 694,
+        "size": 69.36,
+        "path": null,
+        "url": "/uploads/large_bg_masthead_291ddf948d.jpg"
+      },
+      "medium": {
+        "name": "medium_bg-masthead.jpg",
+        "hash": "medium_bg_masthead_291ddf948d",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "width": 750,
+        "height": 521,
+        "size": 40.3,
+        "path": null,
+        "url": "/uploads/medium_bg_masthead_291ddf948d.jpg"
+      },
+      "small": {
+        "name": "small_bg-masthead.jpg",
+        "hash": "small_bg_masthead_291ddf948d",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "width": 500,
+        "height": 347,
+        "size": 20.22,
+        "path": null,
+        "url": "/uploads/small_bg_masthead_291ddf948d.jpg"
+      }
+    },
+    "hash": "bg_masthead_291ddf948d",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 358.75,
+    "url": "/img/bg-masthead.jpg",
+    "previewUrl": null,
+    "provider": "local",
+    "provider_metadata": null,
+    "created_at": "2021-12-06T13:44:58.059Z",
+    "updated_at": "2021-12-06T13:44:58.074Z"
+  }
+}

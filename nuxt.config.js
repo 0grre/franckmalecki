@@ -1,29 +1,21 @@
-const strapiBaseUri = process.env.API_URL || "https://franckmalecki.jbloup-server.fr";
-
 export default {
-  // Disable server-side rendering: https://go.nuxtjs.dev/ssr-mode
   ssr: false,
 
-  // Target: https://go.nuxtjs.dev/config-target
   target: 'static',
-  env: {
-    strapiBaseUri,
-  },
 
-  // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    title: process.env.TITLE || "Franck Malecki - Ambassadeur d'un mode de vie sain et actif",
+    title: "Franck Malecki - Ambassadeur d'un mode de vie sain et actif",
     htmlAttrs: {
       lang: 'fr'
     },
     meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' }
+      {charset: 'utf-8'},
+      {name: 'viewport', content: 'width=device-width, initial-scale=1, shrink-to-fit=no'},
+      {hid: 'description', name: 'description', content: ''},
+      {name: 'format-detection', content: 'telephone=no'}
     ],
     link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
+      {rel: 'icon', type: 'image/x-icon', href: '/favicon.ico'},
       {
         rel: 'stylesheet',
         href: 'https://fonts.googleapis.com/css?family=Varela+Round'
@@ -45,15 +37,10 @@ export default {
       {
         src: 'https://cdnjs.cloudflare.com/ajax/libs/jquery-easing/1.4.1/jquery.easing.min.js',
         type: "text/javascript"
-      },
-/*      {
-        src: '@/assets/js/scripts.js',
-        type: "text/javascript"
-      }*/
+      }
     ]
   },
 
-  // Global CSS: https://go.nuxtjs.dev/config-css
   css: [
     '@/assets/css/styles.css',
   ],
@@ -61,23 +48,17 @@ export default {
     '@/assets/js/scripts.js',
   ],
 
-  // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
-  plugins: [
-  ],
+  plugins: [],
 
-  // Auto import components: https://go.nuxtjs.dev/config-components
   components: true,
 
-  // Modules for dev and build (recommended): https://go.nuxtjs.dev/config-modules
   buildModules: [
-    // https://go.nuxtjs.dev/tailwindcss
     '@nuxtjs/tailwindcss',
     '@nuxtjs/fontawesome',
     '@nuxtjs/google-fonts',
     '@nuxtjs/markdownit'
   ],
 
-  // This is for displaying rich text content in the frontend.
   markdownit: {
     preset: 'default',
     linkify: true,
@@ -85,38 +66,15 @@ export default {
     injected: true
   },
 
-  fontawesome:{
+  fontawesome: {
     component: 'fa',
-    icons:{
+    icons: {
       solid: true,
-      brands: true,
+      brands: true
     }
   },
 
-  // Modules: https://go.nuxtjs.dev/config-modules
-  modules: [
-    '@nuxtjs/strapi',
-  ],
+  modules: [],
 
-  strapi: {
-    url: strapiBaseUri,
-    entities: [
-      {
-        name: "about",
-        type: "single",
-      },
-      {
-        name: "opportunity",
-        type: "single",
-      },
-      {
-        name: "opportunities",
-        type: "collection",
-      },
-    ],
-  },
-
-  // Build Configuration: https://go.nuxtjs.dev/config-build
-  build: {
-  }
+  build: {}
 }

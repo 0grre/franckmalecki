@@ -19,14 +19,20 @@ import Contact from "../components/Contact";
 
 export default {
   components: {Contact, Signup, Project, About, NavBar},
-  async asyncData({ $strapi }) {
+  async asyncData() {
+
+    const about = await fetch('/content/about.json')
+    const opportunity = await fetch('/content/opportunity.json')
+    const opportunities = await fetch('/content/opportunities.json')
+    const questionnaire = await fetch('/content/questionnaire.json')
+    const links = await fetch('/content/links.json')
 
     return {
-      about: await $strapi.find("about"),
-      opportunity: await $strapi.find("opportunity"),
-      questionnaire: await $strapi.find("questionnaire"),
-      opportunities: await $strapi.find("pages"),
-      url: process.env.strapiBaseUri,
+      about: await about.json(),
+      opportunity: await opportunity.json(),
+      questionnaire: await questionnaire.json(),
+      opportunities: await opportunities.json(),
+      links: await links.json()
     };
   },
 }

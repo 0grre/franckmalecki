@@ -1,0 +1,72 @@
+{
+  "id": 1,
+  "Texte": "Tu veux plus d'info ?\n\nTon challenge commence ici ! ",
+  "Bouton": "Ton évaluation bien-être offerte ! 🎁",
+  "published_at": "2022-01-26T18:41:07.225Z",
+  "created_at": "2022-01-26T18:39:21.961Z",
+  "updated_at": "2022-01-26T19:04:00.460Z",
+  "Fond": {
+    "id": 1,
+    "name": "bg-signup.jpg",
+    "alternativeText": "",
+    "caption": "",
+    "width": 1200,
+    "height": 800,
+    "formats": {
+      "thumbnail": {
+        "name": "thumbnail_bg-signup.jpg",
+        "hash": "thumbnail_bg_signup_ac13b6cb13",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "width": 234,
+        "height": 156,
+        "size": 3.82,
+        "path": null,
+        "url": "/uploads/thumbnail_bg_signup_ac13b6cb13.jpg"
+      },
+      "large": {
+        "name": "large_bg-signup.jpg",
+        "hash": "large_bg_signup_ac13b6cb13",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "width": 1000,
+        "height": 667,
+        "size": 61.53,
+        "path": null,
+        "url": "/uploads/large_bg_signup_ac13b6cb13.jpg"
+      },
+      "medium": {
+        "name": "medium_bg-signup.jpg",
+        "hash": "medium_bg_signup_ac13b6cb13",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "width": 750,
+        "height": 500,
+        "size": 31.92,
+        "path": null,
+        "url": "/uploads/medium_bg_signup_ac13b6cb13.jpg"
+      },
+      "small": {
+        "name": "small_bg-signup.jpg",
+        "hash": "small_bg_signup_ac13b6cb13",
+        "ext": ".jpg",
+        "mime": "image/jpeg",
+        "width": 500,
+        "height": 333,
+        "size": 13.42,
+        "path": null,
+        "url": "/uploads/small_bg_signup_ac13b6cb13.jpg"
+      }
+    },
+    "hash": "bg_signup_ac13b6cb13",
+    "ext": ".jpg",
+    "mime": "image/jpeg",
+    "size": 96.14,
+    "url": "/img/bg_signup.jpg",
+    "previewUrl": null,
+    "provider": "local",
+    "provider_metadata": null,
+    "created_at": "2021-12-06T13:44:57.295Z",
+    "updated_at": "2021-12-06T13:44:57.348Z"
+  }
+}

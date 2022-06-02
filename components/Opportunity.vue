@@ -1,6 +1,6 @@
 <template>
   <div class="row justify-content-center no-gutters">
-    <div class="col-lg-6"><img class="img-fluid" :src="url + opportunity.Image.url" alt=""/></div>
+    <div class="col-lg-6"><img class="img-fluid" :src="opportunity.Image.url" alt=""/></div>
     <div :class="opportunity.id%2 === 1 ? 'col-lg-6 order-lg-first' : 'col-lg-6'">
       <div class="bg-black text-center h-100 project">
         <div class="d-flex h-100">
@@ -21,7 +21,6 @@ export default {
       type: Object,
       default: () => ({}),
     },
-    url: { type: String }
   },
 };
 </script>
