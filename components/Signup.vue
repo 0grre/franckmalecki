@@ -24,7 +24,7 @@ export default {
   },
   data(props){
     return {
-      media_url: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url('+props.url + props.questionnaire.Fond.url+')',
+      media_url: 'linear-gradient(to bottom, rgba(0, 0, 0, 0.1) 0%, rgba(0, 0, 0, 0.5) 75%, #000000 100%), url(' + props.questionnaire.Fond.url+')',
     }},
 }
 </script>
